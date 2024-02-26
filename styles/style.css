@@ -1,8 +1,135 @@
-/*
-Colors:
+* {
+  font-family: Helvetica;
+}
+body {
+  margin-bottom: 30px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
-*/
+.nav-link {
+  display: flex;
+}
+
+a {
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-img {
+  height: 50px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-size: 100% 100%;
+  background-image: url("../images/landing.jpg");
+  background-position: cover;
+}
+.landing > h1 {
+  font-size: 50px;
+  color: white;
+}
+.landing > p {
+  line-height: 1px;
+  font-size: 22px;
+  color: white;
+}
+.mini-img {
+  height: 60px;
+}
+
+main {
+  margin: auto 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+.what {
+    margin-top: 10px;
+  text-underline-offset: 15px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  text-decoration: underline solid green;
+}
+
+.middleblock {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-blue {
+  color: grey;
+  font-size: 20px;
+}
+
+.p-vert {
+  color: #1db954;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+footer {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1db954;
+}
+.yeez {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  padding-bottom: 20px;
+}
+
+.block-footer > p {
+  font-size: 20px;
+  font-weight: 100;
+}
+.block-footer > h3 {
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+}
+.img-app {
+  margin-left: 80px;
+  height: 600px;
+  align-self: center;
+}
+.img-icone {
+  margin: 0px 80px;
+  display: flex;
+  align-self: center;
+  height: 100px;
+}
